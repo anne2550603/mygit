@@ -4,6 +4,21 @@ div{
     height: 100px;
 }
 p{
+    width: 100px;
     background: lime;
+    height: 100px;
     color: blue;   
+    cursor: pointer;
+}
+input{
+    user-select:none;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    color: red;   
 }
